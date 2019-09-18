@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/calculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/calculadora.css">
+</head>
+<title>
+    Exemplos Html
+</title>
+<body>
+    <div class="divPrincipal">
+        <span class="calc">Calculadora</span>
+        <br>
+        <input class="visor" disabled type="number" id="visor">
+
+        <div class="margem5">
+            <input type="button" class="tamanhoBotao" onclick="adiciona('7')" value="7"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('8')" value="8"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('9')" value="9"></input>
+            <input type="button" class="tamanhoBotao" value="+"></input>
+        </div>
+        <div class="margem5">
+            <input type="button" class="tamanhoBotao" onclick="adiciona('6')" value="6"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('5')" value="5"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('4')" value="4"></input>
+            <input type="button" class="tamanhoBotao" value="-"></input>
+        </div>
+        <div class="margem5">
+            <input type="button" class="tamanhoBotao" onclick="adiciona('3')" value="3"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('2')" value="2"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('1')" value="1"></input>
+            <input type="button" class="tamanhoBotao" value="/"></input>
+        </div>
+        <div class="margem5 rodape">
+            <input type="button" class="tamanhoBotao" onclick="limpar()" value="C"></input>
+            <input type="button" class="tamanhoBotao" onclick="adiciona('0')" value="0"></input>
+            <input type="button" class="tamanhoBotao" value="="></input>
+            <input type="button" class="tamanhoBotao" value="x"></input>
+        </div>
+        <hr>
+    </div>
+    <a href="index.html">voltar</a>
+</body>
+</html>
